@@ -107,9 +107,3 @@ rows = run_query("SELECT * FROM users WHERE age > %s AND city = %s", (25, "Lisbo
 for row in rows:
     print(row)
 ```
-
-## Pontos importantes
-
-- **Nunca** monte queries com f-strings ou concatenação de texto (ex: `f"SELECT * FROM users WHERE id = {id}"`). Isso abre brecha para SQL Injection. Sempre use `%s` + parâmetros.
-- O `host` e `port` devem ser exatamente os mesmos configurados no `docker-compose.yml` ou no comando `docker run` usado para subir o container MySQL.
-- Sempre feche a conexão (`connection.close()`) e o cursor (`cursor.close()`) após o uso — o bloco `finally` já cuida disso automaticamente.
