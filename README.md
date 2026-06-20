@@ -5,7 +5,7 @@ Imagine que você tenha que modelar um sistema de administração de uma Univers
 
 ## DER (Diagrama Entidade-Relacionamento)
 
-<img width="1296" height="685" alt="Screenshot From 2026-06-09 09-15-05" src="https://github.com/user-attachments/assets/110d8c53-b2d6-4e5e-8a11-ffb0228a214a" />
+<img width="1189" height="641" alt="Screenshot From 2026-06-19 22-34-49" src="https://github.com/user-attachments/assets/92b0e0c2-4873-4736-b703-9e5df1c56729" />
 
 `Caso seja necessário, esse diagrama em formato .xml se encontra na pasta 'diagramas' do repositório.`
 
