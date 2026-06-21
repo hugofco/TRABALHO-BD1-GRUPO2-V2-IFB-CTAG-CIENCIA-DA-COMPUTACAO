@@ -39,7 +39,7 @@ Sempre cerifique-se de executar o script de criação do banco em um ambiente no
 docker run -d --name Banco_Universidade_grupo2 -e MYSQL_ROOT_PASSWORD=admin -p 3307:3306 mysql:8
 ```
 
-## Utilize o seguinte endereço para a configuração do hostname e test connection
+### Utilize o seguinte endereço para a configuração do hostname e test connection
 
 ```bash
 172.17.0.2
